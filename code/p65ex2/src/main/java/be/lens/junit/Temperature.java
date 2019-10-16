@@ -18,11 +18,11 @@ public class Temperature {
     }
 
     public boolean isBoiling(){
-        return true;
+        return value == 100F;
     }
 
     public boolean isFreezing(){
-        return true;
+        return value < 0F;
     }
 
     @Override

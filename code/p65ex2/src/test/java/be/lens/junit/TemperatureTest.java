@@ -1,10 +1,18 @@
 package be.lens.junit;
 
 import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 public class TemperatureTest {
+    Temperature t;
+
+    @BeforeEach
+    public void init(){
+        t = new Temperature(0);
+    }
+
     @Test
     @DisplayName("Tests the Temperature constructor and check the constructor arg with a getter")
     public final void testConstructor(){
@@ -54,5 +62,25 @@ public class TemperatureTest {
         Temperature temperatureA = new Temperature(50F);
         Temperature temperatureB = new Temperature(60F);
         Assertions.assertNotEquals(temperatureA.hashCode(),temperatureB.hashCode());
+    }
+
+    @Test
+    public final void testBoiling(){
+        t.setValue(99F);
+        Assertions.assertEquals(false,t.isBoiling());
+        t.setValue(101F);
+        Assertions.assertEquals(false,t.isBoiling());
+        t.setValue(100F);
+        Assertions.assertEquals(true,t.isBoiling());
+    }
+
+    @Test
+    public final void testFreezing(){
+        t.setValue(1F);
+        Assertions.assertEquals(false,t.isFreezing());
+        t.setValue(0F);
+        Assertions.assertEquals(false,t.isFreezing());
+        t.setValue(-1F);
+        Assertions.assertEquals(true,t.isFreezing());
     }
 }

@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a535c93-4882-43a4-b328-8be98696f22d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../../p65ex2/src/main/java/be/lens/junit/Temperature.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../p65ex2/src/test/java/be/lens/junit/TemperatureTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../page58ex01/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../page58ex01/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../notes/16-10-2019" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../notes/16-10-2019" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../p65ex2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../p65ex2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../p65ex2/src/main/java/be/lens/junit/Temperature.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../p65ex2/src/main/java/be/lens/junit/Temperature.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../p65ex2/src/test/java/be/lens/junit/TemperatureTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../p65ex2/src/test/java/be/lens/junit/TemperatureTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../p65ex2/target/classes/be/lens/junit/Temperature.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../p65ex2/target/classes/be/lens/junit/Temperature.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../p65ex2/target/test-classes/be/lens/junit/TemperatureTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../p65ex2/target/test-classes/be/lens/junit/TemperatureTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -151,7 +151,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1571255596167" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1571256365516" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
