@@ -46,4 +46,19 @@ last week:
 
       remote repository
 
-      
+
+NEW
+
+  p.37 ex 7
+
+    deploy on remote repo
+
+  p.38 properties and resource filtering
+
+      ${project.artifactId}
+
+    points to
+
+      <project><artifactId> THIS </artifactId></project>
+
+    
