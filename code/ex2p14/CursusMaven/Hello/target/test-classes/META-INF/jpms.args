@@ -1,0 +1,4 @@
+--patch-module
+eu.noelvaes.hello=_
+--add-reads
+eu.noelvaes.hello=ALL-UNNAMED

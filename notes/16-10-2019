@@ -1,0 +1,49 @@
+XML recap/intro
+
+  cfr. doc on drive
+
+last week:
+
+  maven
+
+    POM.xml
+
+    dependencies
+
+    scope
+
+    transitivity
+
+      A depends on B
+
+        &
+
+      B depends on C
+
+        so
+
+      A depends on C
+
+    versions
+
+      inclusive & excusive
+
+    lifecycle
+
+      clean
+
+      default (test, compile, install, ...)
+
+      site
+
+    phases & goals
+
+    architecture
+
+      local repo is .m2
+
+      build system
+
+      remote repository
+
+      

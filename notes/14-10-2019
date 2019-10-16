@@ -1,0 +1,103 @@
+compiled vs interpreted
+
+Java is compiled AND interpreted
+
+  source -> Compiler (Java) -> Bytecode (.class) -> Interpreter (HW dependent)
+
+Java Platform
+
+  APIs
+
+  abstraction
+
+Java Development Cylce:
+
+  EDIT : write source
+
+  COMPILE : javac compiler
+
+  RUN : Java Runtime (jvm)
+
+Jar files
+
+  bundling of related classes in a single file
+
+  pro's:
+
+    1 file
+
+    security
+
+    speed
+
+    compression
+
+    ...
+
+
+making and using JARs
+
+executable JARs
+
+  META-INF
+
+    manifest: refers to package structure and starting class
+
+
+MAVEN
+
+  proj management tool
+
+    streamline builds
+
+    dependency management
+
+    generate projectinfo
+
+    facilitate best practices
+
+  POM
+
+  Build Lifecylce
+
+    phases
+
+      goals
+
+        plugins
+
+
+    usage: mvn <phase>
+
+      eg: mvn compile
+          mvn package
+
+    structure
+
+          <plugin>:<goal>
+
+      eg:
+          compile:test
+
+
+Lesson
+
+start book p. 10
+
+POM XML structure
+
+mvn package
+
+mvn clean
+
+chaining commands:
+
+  mvn clean package
+
+snapshot p.16
+
+scope p.21
+
+
+p.26
+  mvn dependency:tree
