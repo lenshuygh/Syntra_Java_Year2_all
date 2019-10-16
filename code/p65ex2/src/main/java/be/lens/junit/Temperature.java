@@ -6,6 +6,7 @@ public class Temperature {
     private float value;
 
     public Temperature(float value) {
+        checkForInvalidTemperature(value);
         this.value = value;
     }
 
@@ -14,7 +15,14 @@ public class Temperature {
     }
 
     public void setValue(float value) {
+        checkForInvalidTemperature(value);
         this.value = value;
+    }
+
+    private void checkForInvalidTemperature(float value) {
+        if (value < -273.15F) {
+            throw new InvalidTemperatureException();
+        }
     }
 
     public boolean isBoiling(){

@@ -83,4 +83,19 @@ public class TemperatureTest {
         t.setValue(-1F);
         Assertions.assertEquals(true,t.isFreezing());
     }
+
+    @Test
+    public final void throwsInvalidTemperatureException(){
+        Assertions.assertThrows(InvalidTemperatureException.class,() -> t.setValue(-400F));
+    }
+
+    @Test
+    public final void doesNotTrowsInvalidTemperatureException(){
+        Assertions.assertDoesNotThrow(() -> t.setValue(-272F));
+    }
+
+    @Test
+    public final void temperatureConstructorThrowsInvalidTemperatureException(){
+        Assertions.assertThrows(InvalidTemperatureException.class,() -> new Temperature(-400F));
+    }
 }
