@@ -1,0 +1,21 @@
+recap JUnit
+
+  ...
+
+  @beforeAll
+
+    static method runs before all classes
+
+    it even runs before the test class constructor
+
+  ...
+
+NEW
+
+2.11 p. 67
+
+mock vs stub
+
+p.71 ex. 5
+
+Test Driven Development
