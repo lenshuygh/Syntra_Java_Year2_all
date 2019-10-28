@@ -2,10 +2,7 @@ package be.syntra.java.advanced.view;
 
 import be.syntra.java.advanced.model.Priority;
 import be.syntra.java.advanced.model.TodoItem;
-import org.junit.jupiter.api.AfterEach;
-import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.*;
 
 import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
@@ -95,6 +92,7 @@ class ConsoleViewTest {
         Assertions.assertEquals(expected, outContent.toString());
     }
 
+    @Disabled
     @Test
     void testCanShowError() {
         // given

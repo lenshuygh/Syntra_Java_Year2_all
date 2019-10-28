@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: be.syntra.java.advanced.model.TodoListAppTest
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0.002 s <<< FAILURE! - in be.syntra.java.advanced.model.TodoListAppTest
+testEditItem  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <[New item (HIGH)]> but was: <[]>
+	at be.syntra.java.advanced.model.TodoListAppTest.testEditItem(TodoListAppTest.java:88)
+
+testAddItem  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <Test (NORMAL)> but was: <null>
+	at be.syntra.java.advanced.model.TodoListAppTest.testAddItem(TodoListAppTest.java:49)
+
+testRemoveItem  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at be.syntra.java.advanced.model.TodoListAppTest.testRemoveItem(TodoListAppTest.java:68)
+

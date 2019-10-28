@@ -1,0 +1,73 @@
+-------------------------------------------------------------------------------
+Test set: be.syntra.java.advanced.view.ConsoleViewTest
+-------------------------------------------------------------------------------
+Tests run: 11, Failures: 11, Errors: 0, Skipped: 0, Time elapsed: 0.018 s <<< FAILURE! - in be.syntra.java.advanced.view.ConsoleViewTest
+testConfirmItemEdited  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+expected: <Item edited!
+> but was: <>
+	at be.syntra.java.advanced.view.ConsoleViewTest.testConfirmItemEdited(ConsoleViewTest.java:154)
+
+testCanAskForDescription  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <Enter description: > but was: <>
+	at be.syntra.java.advanced.view.ConsoleViewTest.testCanAskForDescription(ConsoleViewTest.java:82)
+
+testCanShowError  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+expected: <Error message
+> but was: <>
+	at be.syntra.java.advanced.view.ConsoleViewTest.testCanShowError(ConsoleViewTest.java:106)
+
+testCanShowHelp  Time elapsed: 0.003 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+expected: <• list
+• add
+• remove <number>
+• edit <number>
+• help
+• exit
+> but was: <>
+	at be.syntra.java.advanced.view.ConsoleViewTest.testCanShowHelp(ConsoleViewTest.java:44)
+
+testCanShowList  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+expected: <TODO:
+	1. First item (HIGH)
+	2. Second item (NORMAL)
+> but was: <>
+	at be.syntra.java.advanced.view.ConsoleViewTest.testCanShowList(ConsoleViewTest.java:71)
+
+testConfirmAdded  Time elapsed: 0.003 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+expected: <Item added!
+> but was: <>
+	at be.syntra.java.advanced.view.ConsoleViewTest.testConfirmAdded(ConsoleViewTest.java:117)
+
+testCanShowEmptyList  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+expected: <You have no todo's!
+> but was: <>
+	at be.syntra.java.advanced.view.ConsoleViewTest.testCanShowEmptyList(ConsoleViewTest.java:55)
+
+testCanAskForPriority  Time elapsed: 0.002 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <Enter priority (NORMAL, HIGH): > but was: <>
+	at be.syntra.java.advanced.view.ConsoleViewTest.testCanAskForPriority(ConsoleViewTest.java:95)
+
+testConfirmEdit  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+expected: <Are you sure you want to edit "Description (LOW)"?
+> but was: <>
+	at be.syntra.java.advanced.view.ConsoleViewTest.testConfirmEdit(ConsoleViewTest.java:143)
+
+testConfirmItemRemoved  Time elapsed: 0.002 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+expected: <Item removed!
+> but was: <>
+	at be.syntra.java.advanced.view.ConsoleViewTest.testConfirmItemRemoved(ConsoleViewTest.java:165)
+
+testConfirmRemove  Time elapsed: 0.002 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+expected: <Are you sure you want to remove "Description (LOW)"?
+> but was: <>
+	at be.syntra.java.advanced.view.ConsoleViewTest.testConfirmRemove(ConsoleViewTest.java:130)
+

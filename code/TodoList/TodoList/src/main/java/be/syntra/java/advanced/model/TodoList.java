@@ -10,21 +10,20 @@ public class TodoList {
     }
 
     void addItem(TodoItem item) {
-        // TODO impl
+        todoList.add(item);
     }
 
     List<TodoItem> getTodoList() {
-        // TODO impl
-        return Collections.emptyList();
+        /*// TODO impl
+        return Collections.emptyList();*/
+        return List.copyOf(todoList);
     }
 
     void removeItem(TodoItem item) {
-        // TODO impl
+        todoList.remove(item);
     }
 
     TodoItem getItem(int itemIndex) {
-        // TODO impl
-
-
+        return todoList.stream().findFirst().get();
     }
 }

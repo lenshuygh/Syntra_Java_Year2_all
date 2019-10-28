@@ -1,0 +1,14 @@
+/home/lens/IdeaProjects/Syntra_Java_Year2_all/code/TodoList/TodoList/src/main/java/be/syntra/java/advanced/model/Confirmation.java
+/home/lens/IdeaProjects/Syntra_Java_Year2_all/code/TodoList/TodoList/src/main/java/be/syntra/java/advanced/view/ConsoleView.java
+/home/lens/IdeaProjects/Syntra_Java_Year2_all/code/TodoList/TodoList/src/main/java/be/syntra/java/advanced/model/TodoItem.java
+/home/lens/IdeaProjects/Syntra_Java_Year2_all/code/TodoList/TodoList/src/main/java/be/syntra/java/advanced/model/TodoList.java
+/home/lens/IdeaProjects/Syntra_Java_Year2_all/code/TodoList/TodoList/src/main/java/be/syntra/java/advanced/exceptions/InvalidActionException.java
+/home/lens/IdeaProjects/Syntra_Java_Year2_all/code/TodoList/TodoList/src/main/java/be/syntra/java/advanced/view/View.java
+/home/lens/IdeaProjects/Syntra_Java_Year2_all/code/TodoList/TodoList/src/main/java/be/syntra/java/advanced/exceptions/InvalidConfirmationException.java
+/home/lens/IdeaProjects/Syntra_Java_Year2_all/code/TodoList/TodoList/src/main/java/be/syntra/java/advanced/controller/ConsoleController.java
+/home/lens/IdeaProjects/Syntra_Java_Year2_all/code/TodoList/TodoList/src/main/java/be/syntra/java/advanced/model/TodoListApp.java
+/home/lens/IdeaProjects/Syntra_Java_Year2_all/code/TodoList/TodoList/src/main/java/be/syntra/java/advanced/model/Priority.java
+/home/lens/IdeaProjects/Syntra_Java_Year2_all/code/TodoList/TodoList/src/main/java/be/syntra/java/advanced/controller/Controller.java
+/home/lens/IdeaProjects/Syntra_Java_Year2_all/code/TodoList/TodoList/src/main/java/be/syntra/java/advanced/model/Action.java
+/home/lens/IdeaProjects/Syntra_Java_Year2_all/code/TodoList/TodoList/src/main/java/be/syntra/java/advanced/exceptions/InvalidPriorityException.java
+/home/lens/IdeaProjects/Syntra_Java_Year2_all/code/TodoList/TodoList/src/main/java/be/syntra/java/advanced/App.java
