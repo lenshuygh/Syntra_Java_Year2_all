@@ -20,7 +20,7 @@ public class ConsoleController implements Controller {
     @Override
     public String getUserInput() {
         // TODO impl
-        return null;
+        return scanner.nextLine();
     }
 
     @Override
@@ -28,18 +28,42 @@ public class ConsoleController implements Controller {
         final String userInput = this.getUserInput();
         try {
             // TODO impl
-            return null;
+            if (userInput.toUpperCase().contains("EDIT")){
+                Action.EDIT.setPayload(getNumberAtInputEnd(userInput,"EDIT"));
+                return Action.EDIT;
+            }else if (userInput.toUpperCase().contains("HELP")){
+                return Action.HELP;
+            }else if (userInput.toUpperCase().contains("EXIT")){
+                return Action.EXIT;
+            }else if (userInput.toUpperCase().contains("LIST")){
+                return Action.LIST;
+            }else if (userInput.toUpperCase().contains("ADD")){
+                return Action.ADD;
+            }else if (userInput.toUpperCase().contains("REMOVE")){
+                Action.REMOVE.setPayload(getNumberAtInputEnd(userInput,"REMOVE"));
+                return Action.REMOVE;
+            }
+            throw new IllegalArgumentException();
         } catch (IllegalArgumentException exception) {
             throw new InvalidActionException(String.format("Invalid action: %s", userInput), exception);
         }
+    }
+
+    private int getNumberAtInputEnd(String userInput,String actionString) {
+        return Integer.parseInt(userInput.toUpperCase().replace(actionString,"").trim());
     }
 
     @Override
     public Priority getPriority() {
         final String userInput = this.getUserInput();
         try {
+            switch (userInput.toUpperCase()){
+                case "LOW": return Priority.LOW;
+                case "NORMAL": return Priority.NORMAL;
+                case "HIGH": return Priority.HIGH;
+            }
+            throw new IllegalArgumentException();
             // TODO impl
-            return null;
         } catch (IllegalArgumentException iae) {
             throw new InvalidPriorityException(String.format("Invalid priority: %s", userInput), iae);
         }
@@ -50,7 +74,12 @@ public class ConsoleController implements Controller {
         final String userInput = this.getUserInput();
         try {
             // TODO impl
-            return null;
+            if(userInput.toUpperCase().equals("YES")){
+                return Confirmation.YES;
+            }else if(userInput.toUpperCase().equals("NO")) {
+                return Confirmation.NO;
+            }
+            throw new IllegalArgumentException();
         } catch (IllegalArgumentException iae) {
             throw new InvalidConfirmationException(String.format("Invalid confirmation: %s", userInput), iae);
         }

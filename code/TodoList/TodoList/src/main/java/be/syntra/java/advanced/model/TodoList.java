@@ -24,6 +24,7 @@ public class TodoList {
 
     TodoItem getItem(int itemIndex) {
         // TODO impl
-        return null;
+
+
     }
 }

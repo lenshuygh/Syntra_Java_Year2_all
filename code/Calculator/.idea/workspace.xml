@@ -2,45 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="314f6512-d299-4659-8c94-c1272bdf8fb8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Calculator.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/be/lens/syntra/calculator/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/be/lens/syntra/calculator/CalculatorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TddFizzBuzz/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TddFizzBuzz/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TddFizzBuzz/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TddFizzBuzz/src/main/java/be/lens/syntra/FizzBuzz.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TddFizzBuzz/src/test/java/be/lens/syntra/FizzBuzzTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TodoList/TodoList/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TodoList/TodoList/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TodoList/TodoList/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TodoList/TodoList/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TodoList/TodoList/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TodoList/TodoList/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TodoList/TodoList/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TodoList/TodoList/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TodoList/TodoList/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TodoList/TodoList/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TodoList/TodoList/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TodoList/TodoList/TodoList.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../bowling/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../bowling/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../bowling/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../bowling/bowling.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../bowling/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../bowling/src/main/java/be/lens/syntra/junit/extra/BowlingGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../bowling/src/test/java/be/lens/syntra/junit/extra/BowlingTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../p65ex2/src/main/java/be/lens/junit/Heating.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../p65ex2/src/main/java/be/lens/junit/Sensor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../p65ex2/src/main/java/be/lens/junit/Thermostat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../p65ex2/src/test/java/be/lens/junit/ThermostatTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex2p14/CursusMaven/Hello/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ex2p14/CursusMaven/Hello/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../p65ex2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../p65ex2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TodoList/TodoList/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TodoList/TodoList/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TodoList/TodoList/src/main/java/be/syntra/java/advanced/controller/ConsoleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TodoList/TodoList/src/main/java/be/syntra/java/advanced/controller/ConsoleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TodoList/TodoList/src/main/java/be/syntra/java/advanced/model/TodoList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TodoList/TodoList/src/main/java/be/syntra/java/advanced/model/TodoList.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -67,7 +32,7 @@
             <entry file="file://$PROJECT_DIR$/src/test/java/be/lens/syntra/calculator/CalculatorTest.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="323">
-                  <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+                  <caret line="19" selection-start-line="19" selection-end-line="19" />
                   <folding>
                     <element signature="imports" expanded="true" />
                     <element signature="e#305#306#0" expanded="true" />
@@ -151,9 +116,9 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
-    <option name="y" value="80" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-125" />
+    <option name="y" value="340" />
     <option name="width" value="1934" />
     <option name="height" value="967" />
   </component>
@@ -163,8 +128,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -341,6 +306,9 @@
       <workItem from="1571731617184" duration="1382000" />
       <workItem from="1571816628758" duration="594000" />
       <workItem from="1571849683065" duration="3916000" />
+      <workItem from="1571899002700" duration="591000" />
+      <workItem from="1572007851353" duration="581000" />
+      <workItem from="1572250074362" duration="580000" />
     </task>
     <servers />
   </component>
@@ -377,12 +345,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10308000" />
+    <option name="totallyTimeSpent" value="12060000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15778251" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16257995" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -459,17 +428,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/be/lens/syntra/calculator/Calculator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/be/lens/syntra/calculator/CalculatorTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#305#306#0" expanded="true" />
@@ -491,6 +453,13 @@
             <element signature="e#1581#1582#0" expanded="true" />
             <element signature="e#1645#1646#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/be/lens/syntra/calculator/Calculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="14" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
         </state>
       </provider>
     </entry>
