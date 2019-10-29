@@ -7,8 +7,6 @@ import be.syntra.java.advanced.exceptions.InvalidPriorityException;
 import be.syntra.java.advanced.view.View;
 
 import java.util.Arrays;
-import java.util.Collections;
-import java.util.List;
 
 public class TodoListApp {
     private final View view;
@@ -55,28 +53,55 @@ public class TodoListApp {
     }
 
     private void addTodoItem() {
-        // TODO impl
+        try {
+            TodoItem item = createTodoItem();
+            todoList.addItem(item);
 
-        
-        todoList.addItem(createTodoItem());
-        view.confirmItemAdded();
-        view.displayList(todoList.getTodoList());
+            view.confirmItemAdded();
+            view.displayList(todoList.getTodoList());
+        } catch (InvalidPriorityException ipe) {
+            view.showError(ipe.getMessage());
+        }
     }
 
     private TodoItem createTodoItem() throws InvalidPriorityException {
-        // TODO impl
         view.askForDescription();
-        String descriptionString = controller.getUserInput();
-        view.askForPriority(Arrays.asList(Priority.NORMAL,Priority.HIGH));
-        Priority priority = controller.getPriority();
-        return new TodoItem(descriptionString,priority);
+        final String description = controller.getUserInput();
+
+        view.askForPriority(Arrays.asList(Priority.values()));
+        final Priority priority = controller.getPriority();
+
+        return new TodoItem(description, priority);
     }
 
     private void removeTodoItem(int itemIndex) {
-        // TODO impl
+        try {
+            TodoItem item = todoList.getItem(itemIndex - 1);
+            view.confirmRemoveItem(item);
+            if (controller.getConfirmation() == Confirmation.YES) {
+                todoList.removeItem(item);
+                view.confirmItemRemoved();
+            }
+        } catch (InvalidConfirmationException | IndexOutOfBoundsException e) {
+            view.showError(e.getMessage());
+            view.showHelp();
+        }
     }
 
     private void editTodoItem(int itemIndex) {
-        // TODO impl
+        try {
+            TodoItem item = todoList.getItem(itemIndex - 1);
+            view.confirmEditItem(item);
+            if (controller.getConfirmation() == Confirmation.YES) {
+                todoList.removeItem(item);
+                todoList.addItem(this.createTodoItem());
+
+                view.confirmItemEdited();
+                view.displayList(todoList.getTodoList());
+            }
+        } catch (InvalidConfirmationException | IndexOutOfBoundsException e) {
+            view.showError(e.getMessage());
+            view.showHelp();
+        }
     }
 }

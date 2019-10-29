@@ -1,6 +1,7 @@
 package be.syntra.java.advanced.model;
 
 import java.util.*;
+import java.util.stream.Collectors;
 
 public class TodoList {
     private final Set<TodoItem> todoList;
@@ -14,9 +15,10 @@ public class TodoList {
     }
 
     List<TodoItem> getTodoList() {
-        /*// TODO impl
-        return Collections.emptyList();*/
-        return List.copyOf(todoList);
+        return todoList.stream()
+                .sorted(Comparator.comparing(TodoItem::getPriority))
+                .sorted(Comparator.reverseOrder())
+                .collect(Collectors.toList());
     }
 
     void removeItem(TodoItem item) {
@@ -24,6 +26,11 @@ public class TodoList {
     }
 
     TodoItem getItem(int itemIndex) {
-        return todoList.stream().findFirst().get();
+
+        return todoList.stream()
+                .sorted(Comparator.comparing(TodoItem::getPriority))
+                .sorted(Comparator.reverseOrder())
+                .findFirst()
+                .get();
     }
 }
