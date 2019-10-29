@@ -55,16 +55,12 @@ public class TodoListApp {
     }
 
     private void addTodoItem() {
-        // TODO impl
-
-        
         todoList.addItem(createTodoItem());
         view.confirmItemAdded();
         view.displayList(todoList.getTodoList());
     }
 
     private TodoItem createTodoItem() throws InvalidPriorityException {
-        // TODO impl
         view.askForDescription();
         String descriptionString = controller.getUserInput();
         view.askForPriority(Arrays.asList(Priority.NORMAL,Priority.HIGH));
@@ -77,6 +73,12 @@ public class TodoListApp {
     }
 
     private void editTodoItem(int itemIndex) {
-        // TODO impl
+        view.confirmEditItem(todoList.getItem(itemIndex));
+        if(controller.getConfirmation() == Confirmation.YES){
+            todoList.removeItem(todoList.getItem(itemIndex));
+            todoList.addItem(createTodoItem());
+            view.confirmItemEdited();
+            view.displayList(todoList.getTodoList());
+        }
     }
 }
