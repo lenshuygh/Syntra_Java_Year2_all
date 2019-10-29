@@ -26,11 +26,14 @@ public class TodoList {
     }
 
     TodoItem getItem(int itemIndex) {
+        return getSortedList().get(itemIndex);
+    }
 
+    private List<TodoItem> getSortedList(){
         return todoList.stream()
                 .sorted(Comparator.comparing(TodoItem::getPriority))
                 .sorted(Comparator.reverseOrder())
-                .findFirst()
-                .get();
+                .collect(Collectors.toList());
+
     }
 }
