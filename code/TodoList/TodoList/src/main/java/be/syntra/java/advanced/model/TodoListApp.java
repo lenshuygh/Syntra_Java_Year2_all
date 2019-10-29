@@ -63,22 +63,30 @@ public class TodoListApp {
     private TodoItem createTodoItem() throws InvalidPriorityException {
         view.askForDescription();
         String descriptionString = controller.getUserInput();
-        view.askForPriority(Arrays.asList(Priority.NORMAL,Priority.HIGH));
+        view.askForPriority(Arrays.asList(Priority.NORMAL, Priority.HIGH));
         Priority priority = controller.getPriority();
-        return new TodoItem(descriptionString,priority);
+        return new TodoItem(descriptionString, priority);
     }
 
     private void removeTodoItem(int itemIndex) {
-        // TODO impl
+        if (todoList.getTodoList().size() >= itemIndex) {
+            view.confirmRemoveItem(todoList.getItem(itemIndex));
+            if (controller.getConfirmation() == Confirmation.YES) {
+                todoList.removeItem(todoList.getItem(itemIndex));
+                view.confirmItemRemoved();
+            }
+        }
     }
 
     private void editTodoItem(int itemIndex) {
-        view.confirmEditItem(todoList.getItem(itemIndex));
-        if(controller.getConfirmation() == Confirmation.YES){
-            todoList.removeItem(todoList.getItem(itemIndex));
-            todoList.addItem(createTodoItem());
-            view.confirmItemEdited();
-            view.displayList(todoList.getTodoList());
+        if (todoList.getTodoList().size() >= itemIndex) {
+            view.confirmEditItem(todoList.getItem(itemIndex));
+            if (controller.getConfirmation() == Confirmation.YES) {
+                todoList.removeItem(todoList.getItem(itemIndex));
+                todoList.addItem(createTodoItem());
+                view.confirmItemEdited();
+                view.displayList(todoList.getTodoList());
+            }
         }
     }
 }

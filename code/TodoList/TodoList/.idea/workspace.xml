@@ -62,7 +62,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TodoListAppTest">
+  <component name="RunManager" selected="JUnit.All in TodoList">
     <configuration default="true" type="tests" factoryName="Nosetests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -133,21 +133,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConsoleControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TodoList" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="be.syntra.java.advanced.controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="be.syntra.java.advanced.controller" />
-      <option name="MAIN_CLASS_NAME" value="be.syntra.java.advanced.controller.ConsoleControllerTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TodoListAppTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TodoList" />
       <extension name="coverage">
@@ -163,7 +148,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TodoListAppTest.testAddItem" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TodoListAppTest.testEditDoesNotThrowIndexOutOfBoundsException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TodoList" />
       <extension name="coverage">
         <pattern>
@@ -173,13 +158,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="be.syntra.java.advanced.model" />
       <option name="MAIN_CLASS_NAME" value="be.syntra.java.advanced.model.TodoListAppTest" />
-      <option name="METHOD_NAME" value="testAddItem" />
+      <option name="METHOD_NAME" value="testEditDoesNotThrowIndexOutOfBoundsException" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TodoListAppTest.testEditItem" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TodoListAppTest.testRemoveDoesNotThrowIndexOutOfBoundsException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TodoList" />
       <extension name="coverage">
         <pattern>
@@ -189,26 +174,42 @@
       </extension>
       <option name="PACKAGE_NAME" value="be.syntra.java.advanced.model" />
       <option name="MAIN_CLASS_NAME" value="be.syntra.java.advanced.model.TodoListAppTest" />
-      <option name="METHOD_NAME" value="testEditItem" />
+      <option name="METHOD_NAME" value="testRemoveDoesNotThrowIndexOutOfBoundsException" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TodoListAppTest.testRemoveItem" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TodoList" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="be.syntra.java.advanced.model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="be.syntra.java.advanced.model" />
+      <option name="MAIN_CLASS_NAME" value="be.syntra.java.advanced.model.TodoListAppTest" />
+      <option name="METHOD_NAME" value="testRemoveItem" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.ConsoleControllerTest" />
       <item itemvalue="JUnit.TodoListAppTest" />
-      <item itemvalue="JUnit.TodoListAppTest.testAddItem" />
+      <item itemvalue="JUnit.TodoListAppTest.testRemoveItem" />
+      <item itemvalue="JUnit.TodoListAppTest.testRemoveDoesNotThrowIndexOutOfBoundsException" />
+      <item itemvalue="JUnit.TodoListAppTest.testEditDoesNotThrowIndexOutOfBoundsException" />
       <item itemvalue="JUnit.All in TodoList" />
-      <item itemvalue="JUnit.TodoListAppTest.testEditItem" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TodoListAppTest" />
-        <item itemvalue="JUnit.TodoListAppTest.testEditItem" />
         <item itemvalue="JUnit.All in TodoList" />
-        <item itemvalue="JUnit.TodoListAppTest.testAddItem" />
-        <item itemvalue="JUnit.ConsoleControllerTest" />
+        <item itemvalue="JUnit.TodoListAppTest" />
+        <item itemvalue="JUnit.TodoListAppTest.testEditDoesNotThrowIndexOutOfBoundsException" />
+        <item itemvalue="JUnit.TodoListAppTest.testRemoveDoesNotThrowIndexOutOfBoundsException" />
+        <item itemvalue="JUnit.TodoListAppTest.testRemoveItem" />
       </list>
     </recent_temporary>
   </component>
