@@ -24,13 +24,12 @@ public class ConsoleView implements View {
     @Override
     public void displayList(List<TodoItem> todoList) {
         if(todoList.size() > 0) {
-            System.out.println("TODO:");
+            System.out.printf("TODO:\n");
             for (int i = 0; i < todoList.size(); i++) {
-                System.out.printf("\t");
-                System.out.println((i + 1) + ". " + todoList.get(i).getDescription() + " (" + todoList.get(i).getPriority() + ')');
+                System.out.printf("\t"+(i+1)+". "+ todoList.get(i).getDescription() +" (" + todoList.get(i).getPriority()+ ")\n");
             }
         }else{
-            System.out.println("You have no todo's!");
+            System.out.print("You have no todo's!\n");
         }
     }
 
@@ -61,16 +60,16 @@ public class ConsoleView implements View {
 
     @Override
     public void confirmItemAdded() {
-        System.out.println("Item added!");
+        System.out.print("Item added!\n");
     }
 
     @Override
     public void confirmItemEdited() {
-        System.out.println("Item edited!");
+        System.out.print("Item edited!\n");
     }
 
     @Override
     public void confirmItemRemoved() {
-        System.out.println("Item removed!");
+        System.out.print("Item removed!\n");
     }
 }
