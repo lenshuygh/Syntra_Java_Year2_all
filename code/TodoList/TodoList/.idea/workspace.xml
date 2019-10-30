@@ -4,13 +4,6 @@
     <list default="true" id="ed62eb38-44da-4827-b676-525fa1c4d9b2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/be/syntra/java/advanced/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/syntra/java/advanced/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/be/syntra/java/advanced/controller/ConsoleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/syntra/java/advanced/controller/ConsoleController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/be/syntra/java/advanced/exceptions/InvalidActionException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/syntra/java/advanced/exceptions/InvalidActionException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/be/syntra/java/advanced/model/TodoList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/syntra/java/advanced/model/TodoList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/be/syntra/java/advanced/model/TodoListApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/syntra/java/advanced/model/TodoListApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/be/syntra/java/advanced/view/ConsoleView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/syntra/java/advanced/view/ConsoleView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/be/syntra/java/advanced/view/ConsoleViewTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/be/syntra/java/advanced/view/ConsoleViewTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/be/syntra/java/advanced/view/ConsoleView.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/be/syntra/java/advanced/view/ConsoleView.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -62,7 +55,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.All in TodoList">
+  <component name="RunManager" selected="Application.App">
     <configuration default="true" type="tests" factoryName="Nosetests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -125,6 +118,19 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="be.syntra.java.advanced.App" />
+      <module name="TodoList" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="be.syntra.java.advanced.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="All in TodoList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TodoList" />
       <option name="PACKAGE_NAME" value="" />
@@ -165,21 +171,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TodoListAppTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TodoList" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="be.syntra.java.advanced.model.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="be.syntra.java.advanced.model" />
-      <option name="MAIN_CLASS_NAME" value="be.syntra.java.advanced.model.TodoListAppTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TodoListAppTest.testEditItem" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TodoList" />
       <extension name="coverage">
@@ -197,19 +188,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.TodoListAppTest" />
       <item itemvalue="JUnit.All in TodoList" />
       <item itemvalue="JUnit.TodoListAppTest.testEditItem" />
       <item itemvalue="JUnit.ConsoleViewTest.testConfirmItemEdited" />
       <item itemvalue="JUnit.ConsoleViewTest.testCanShowError" />
+      <item itemvalue="Application.App" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.App" />
         <item itemvalue="JUnit.All in TodoList" />
         <item itemvalue="JUnit.TodoListAppTest.testEditItem" />
         <item itemvalue="JUnit.ConsoleViewTest.testCanShowError" />
         <item itemvalue="JUnit.ConsoleViewTest.testConfirmItemEdited" />
-        <item itemvalue="JUnit.TodoListAppTest" />
       </list>
     </recent_temporary>
   </component>
