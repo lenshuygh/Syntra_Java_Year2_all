@@ -92,7 +92,6 @@ class ConsoleViewTest {
         Assertions.assertEquals(expected, outContent.toString());
     }
 
-    @Disabled
     @Test
     void testCanShowError() {
         // given

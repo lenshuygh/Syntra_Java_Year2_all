@@ -7,7 +7,6 @@ import be.syntra.java.advanced.view.View;
 
 public class App {
     public static void main(String[] args) {
-        // TODO impl
         View view = null;
         Controller controller = null;
         TodoList todoList = null;

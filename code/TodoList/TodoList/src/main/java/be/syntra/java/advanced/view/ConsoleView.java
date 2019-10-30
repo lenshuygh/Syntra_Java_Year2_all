@@ -45,7 +45,7 @@ public class ConsoleView implements View {
 
     @Override
     public void showError(String errorMessage) {
-        new InvalidActionException(errorMessage);
+        System.err.println(errorMessage);
     }
 
     @Override

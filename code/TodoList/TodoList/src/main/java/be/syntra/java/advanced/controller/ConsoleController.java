@@ -19,7 +19,6 @@ public class ConsoleController implements Controller {
 
     @Override
     public String getUserInput() {
-        // TODO impl
         return scanner.nextLine();
     }
 
@@ -27,7 +26,6 @@ public class ConsoleController implements Controller {
     public Action getUserAction() {
         final String userInput = this.getUserInput();
         try {
-            // TODO impl
             if (userInput.toUpperCase().contains("EDIT")){
                 Action.EDIT.setPayload(getNumberAtInputEnd(userInput,"EDIT"));
                 return Action.EDIT;
@@ -63,7 +61,6 @@ public class ConsoleController implements Controller {
                 case "HIGH": return Priority.HIGH;
             }
             throw new IllegalArgumentException();
-            // TODO impl
         } catch (IllegalArgumentException iae) {
             throw new InvalidPriorityException(String.format("Invalid priority: %s", userInput), iae);
         }
@@ -73,7 +70,6 @@ public class ConsoleController implements Controller {
     public Confirmation getConfirmation() {
         final String userInput = this.getUserInput();
         try {
-            // TODO impl
             if(userInput.toUpperCase().equals("YES")){
                 return Confirmation.YES;
             }else if(userInput.toUpperCase().equals("NO")) {

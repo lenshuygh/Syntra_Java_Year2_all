@@ -3,7 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="ed62eb38-44da-4827-b676-525fa1c4d9b2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/syntra/java/advanced/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/syntra/java/advanced/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/syntra/java/advanced/controller/ConsoleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/syntra/java/advanced/controller/ConsoleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/syntra/java/advanced/exceptions/InvalidActionException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/syntra/java/advanced/exceptions/InvalidActionException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/syntra/java/advanced/model/TodoList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/syntra/java/advanced/model/TodoList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/syntra/java/advanced/model/TodoListApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/syntra/java/advanced/model/TodoListApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/be/syntra/java/advanced/view/ConsoleView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/syntra/java/advanced/view/ConsoleView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/be/syntra/java/advanced/view/ConsoleViewTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/be/syntra/java/advanced/view/ConsoleViewTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/be/syntra/java/advanced/view/ConsoleView.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/be/syntra/java/advanced/view/ConsoleView.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -12,74 +18,6 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/be/syntra/java/advanced/view/ConsoleViewTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="122">
-              <caret line="63" column="26" selection-start-line="63" selection-start-column="26" selection-end-line="63" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/be/syntra/java/advanced/model/TodoListTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/be/syntra/java/advanced/model/TodoListAppTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1377">
-              <caret line="87" selection-start-line="87" selection-end-line="87" />
-              <folding>
-                <element signature="e#6169#6170#0" expanded="true" />
-                <element signature="e#6222#6223#0" expanded="true" />
-                <element signature="e#6273#6274#0" expanded="true" />
-                <element signature="e#6335#6336#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/be/syntra/java/advanced/model/TodoListApp.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="365">
-              <caret line="58" column="8" selection-start-line="58" selection-start-column="8" selection-end-line="58" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/be/syntra/java/advanced/view/ConsoleView.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="258">
-              <caret line="28" column="35" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
-              <folding>
-                <element signature="e#1938#1939#0" expanded="true" />
-                <element signature="e#1988#1989#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/be/syntra/java/advanced/controller/ConsoleController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="799">
-              <caret line="56" column="35" selection-start-line="56" selection-start-column="35" selection-end-line="56" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>set</find>
@@ -87,13 +25,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/main/java/be/syntra/java/advanced/view/ConsoleView.java" />
-      </list>
-    </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -108,144 +39,8 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
-  </component>
   <component name="ProjectId" id="1Sqd1MhVyDAhOmhsxUgtDIuOMta" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="TodoList" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TodoList" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TodoList" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TodoList" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TodoList" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TodoList" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TodoList" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TodoList" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TodoList" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TodoList" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="advanced" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TodoList" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TodoList" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="advanced" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TodoList" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TodoList" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="advanced" type="462c0819:PsiDirectoryNode" />
-              <item name="exceptions" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TodoList" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TodoList" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="advanced" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TodoList" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TodoList" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="advanced" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TodoList" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TodoList" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TodoList" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TodoList" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TodoList" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TodoList" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="advanced" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TodoList" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TodoList" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="advanced" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TodoList" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TodoList" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="advanced" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TodoList" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TodoList" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="advanced" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
-  </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -268,76 +63,6 @@
     </option>
   </component>
   <component name="RunManager" selected="JUnit.All in TodoList">
-    <configuration name="All in TodoList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TodoList" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ConsoleViewTest.testConfirmItemEdited" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TodoList" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="be.syntra.java.advanced.view.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="be.syntra.java.advanced.view" />
-      <option name="MAIN_CLASS_NAME" value="be.syntra.java.advanced.view.ConsoleViewTest" />
-      <option name="METHOD_NAME" value="testConfirmItemEdited" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TodoListAppTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TodoList" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="be.syntra.java.advanced.model.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="be.syntra.java.advanced.model" />
-      <option name="MAIN_CLASS_NAME" value="be.syntra.java.advanced.model.TodoListAppTest" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TodoListAppTest.testEditDoesNotThrowIndexOutOfBoundsException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TodoList" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="be.syntra.java.advanced.model.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="be.syntra.java.advanced.model" />
-      <option name="MAIN_CLASS_NAME" value="be.syntra.java.advanced.model.TodoListAppTest" />
-      <option name="METHOD_NAME" value="testEditDoesNotThrowIndexOutOfBoundsException" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TodoListAppTest.testEditItem" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TodoList" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="be.syntra.java.advanced.model.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="be.syntra.java.advanced.model" />
-      <option name="MAIN_CLASS_NAME" value="be.syntra.java.advanced.model.TodoListAppTest" />
-      <option name="METHOD_NAME" value="testEditItem" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="tests" factoryName="Nosetests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -400,20 +125,91 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="All in TodoList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TodoList" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConsoleViewTest.testCanShowError" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TodoList" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="be.syntra.java.advanced.view.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="be.syntra.java.advanced.view" />
+      <option name="MAIN_CLASS_NAME" value="be.syntra.java.advanced.view.ConsoleViewTest" />
+      <option name="METHOD_NAME" value="testCanShowError" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConsoleViewTest.testConfirmItemEdited" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TodoList" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="be.syntra.java.advanced.view.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="be.syntra.java.advanced.view" />
+      <option name="MAIN_CLASS_NAME" value="be.syntra.java.advanced.view.ConsoleViewTest" />
+      <option name="METHOD_NAME" value="testConfirmItemEdited" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TodoListAppTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TodoList" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="be.syntra.java.advanced.model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="be.syntra.java.advanced.model" />
+      <option name="MAIN_CLASS_NAME" value="be.syntra.java.advanced.model.TodoListAppTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TodoListAppTest.testEditItem" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TodoList" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="be.syntra.java.advanced.model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="be.syntra.java.advanced.model" />
+      <option name="MAIN_CLASS_NAME" value="be.syntra.java.advanced.model.TodoListAppTest" />
+      <option name="METHOD_NAME" value="testEditItem" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="JUnit.TodoListAppTest" />
-      <item itemvalue="JUnit.TodoListAppTest.testEditDoesNotThrowIndexOutOfBoundsException" />
       <item itemvalue="JUnit.All in TodoList" />
       <item itemvalue="JUnit.TodoListAppTest.testEditItem" />
       <item itemvalue="JUnit.ConsoleViewTest.testConfirmItemEdited" />
+      <item itemvalue="JUnit.ConsoleViewTest.testCanShowError" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.All in TodoList" />
-        <item itemvalue="JUnit.ConsoleViewTest.testConfirmItemEdited" />
         <item itemvalue="JUnit.TodoListAppTest.testEditItem" />
+        <item itemvalue="JUnit.ConsoleViewTest.testCanShowError" />
+        <item itemvalue="JUnit.ConsoleViewTest.testConfirmItemEdited" />
         <item itemvalue="JUnit.TodoListAppTest" />
-        <item itemvalue="JUnit.TodoListAppTest.testEditDoesNotThrowIndexOutOfBoundsException" />
       </list>
     </recent_temporary>
   </component>
@@ -446,58 +242,8 @@
     </task>
     <servers />
   </component>
-  <component name="TestHistory">
-    <history-entry file="All_in_TodoList - 2019.10.30 at 08h 59m 17s.xml">
-      <configuration name="All in TodoList" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ConsoleViewTest_testConfirmItemEdited - 2019.10.30 at 09h 00m 11s.xml">
-      <configuration name="ConsoleViewTest.testConfirmItemEdited" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_TodoList - 2019.10.30 at 09h 00m 19s.xml">
-      <configuration name="All in TodoList" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_TodoList - 2019.10.30 at 09h 03m 40s.xml">
-      <configuration name="All in TodoList" configurationId="JUnit" />
-    </history-entry>
-  </component>
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="15819000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="UI Designer" order="3" />
-      <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Image Layers" order="6" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32936078" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32936078" />
-      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="12" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Database" order="5" />
-      <window_info anchor="right" id="Maven Projects" order="6" />
-      <window_info anchor="right" id="SciView" order="7" />
-      <window_info anchor="right" id="Palette&#9;" order="8" />
-      <window_info anchor="right" id="Theme Preview" order="9" />
-    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -508,44 +254,11 @@
         <entry key="MAIN">
           <value>
             <State>
-              <option name="RECENTLY_FILTERED_USER_GROUPS">
-                <collection />
-              </option>
-              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-                <collection />
-              </option>
               <option name="COLUMN_ORDER" />
             </State>
           </value>
         </entry>
       </map>
     </option>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/be/syntra/java/advanced/model/TodoListApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="58" column="8" selection-start-line="58" selection-start-column="8" selection-end-line="58" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/be/syntra/java/advanced/view/ConsoleViewTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="63" column="26" selection-start-line="63" selection-start-column="26" selection-end-line="63" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/be/syntra/java/advanced/view/ConsoleView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="28" column="35" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
-          <folding>
-            <element signature="e#1938#1939#0" expanded="true" />
-            <element signature="e#1988#1989#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
   </component>
 </project>
