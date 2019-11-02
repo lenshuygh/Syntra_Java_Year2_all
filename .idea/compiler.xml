@@ -6,12 +6,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="bowling" />
         <module name="Hello" />
         <module name="p65ex2" />
         <module name="page58ex01" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="bowling" target="11" />
       <module name="Hello" target="11" />
       <module name="p65ex2" target="11" />
       <module name="page58ex01" target="11" />

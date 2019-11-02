@@ -2,248 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="596c1c3c-92fc-48ca-b366-5342b99f977d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_10_0.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_core_2_10_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_0_0.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_2_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_2_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_2_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_2_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/Calculator/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/Calculator/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/Calculator/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/Calculator/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/Calculator/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/Calculator/Calculator.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/Calculator/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/Calculator/src/main/java/be/lens/syntra/calculator/Calculator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/Calculator/src/test/java/be/lens/syntra/calculator/CalculatorTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/Calculator/target/classes/be/lens/syntra/calculator/Calculator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/Calculator/target/test-classes/be/lens/syntra/calculator/CalculatorTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/TddFizzBuzz/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/TddFizzBuzz/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/TddFizzBuzz/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/TddFizzBuzz/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/TddFizzBuzz/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/TddFizzBuzz/TddFizzBuzz.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/TddFizzBuzz/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/TddFizzBuzz/src/main/java/be/lens/syntra/FizzBuzz.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/TddFizzBuzz/src/test/java/be/lens/syntra/FizzBuzzTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/TddFizzBuzz/target/classes/be/lens/syntra/FizzBuzz.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/TddFizzBuzz/target/test-classes/be/lens/syntra/FizzBuzzTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/TodoList/TodoList/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/TodoList/TodoList/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/TodoList/TodoList/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/TodoList/TodoList/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_5_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/TodoList/TodoList/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_5_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/TodoList/TodoList/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_5_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/TodoList/TodoList/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_5_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/TodoList/TodoList/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/TodoList/TodoList/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/TodoList/TodoList/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/TodoList/TodoList/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/TodoList/TodoList/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/TodoList/TodoList/Error message" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/TodoList/TodoList/Error message&#10;" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/TodoList/TodoList/TodoList.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/TodoList/TodoList/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/TodoList/TodoList/src/main/java/be/syntra/java/advanced/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/TodoList/TodoList/src/main/java/be/syntra/java/advanced/controller/ConsoleController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/TodoList/TodoList/src/main/java/be/syntra/java/advanced/controller/Controller.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/TodoList/TodoList/src/main/java/be/syntra/java/advanced/exceptions/InvalidActionException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/TodoList/TodoList/src/main/java/be/syntra/java/advanced/exceptions/InvalidConfirmationException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/TodoList/TodoList/src/main/java/be/syntra/java/advanced/exceptions/InvalidPriorityException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/TodoList/TodoList/src/main/java/be/syntra/java/advanced/model/Action.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/TodoList/TodoList/src/main/java/be/syntra/java/advanced/model/Confirmation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/TodoList/TodoList/src/main/java/be/syntra/java/advanced/model/Priority.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/TodoList/TodoList/src/main/java/be/syntra/java/advanced/model/TodoItem.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/TodoList/TodoList/src/main/java/be/syntra/java/advanced/model/TodoList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/TodoList/TodoList/src/main/java/be/syntra/java/advanced/model/TodoListApp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/TodoList/TodoList/src/main/java/be/syntra/java/advanced/view/ConsoleView.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/TodoList/TodoList/src/main/java/be/syntra/java/advanced/view/View.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/TodoList/TodoList/src/test/java/be/syntra/java/advanced/controller/ConsoleControllerTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/TodoList/TodoList/src/test/java/be/syntra/java/advanced/model/TodoItemTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/TodoList/TodoList/src/test/java/be/syntra/java/advanced/model/TodoListAppTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/TodoList/TodoList/src/test/java/be/syntra/java/advanced/model/TodoListTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/TodoList/TodoList/src/test/java/be/syntra/java/advanced/view/ConsoleViewTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/TodoList/TodoList/target/classes/be/syntra/java/advanced/App.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/TodoList/TodoList/target/classes/be/syntra/java/advanced/controller/ConsoleController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/TodoList/TodoList/target/classes/be/syntra/java/advanced/controller/Controller.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/TodoList/TodoList/target/classes/be/syntra/java/advanced/exceptions/InvalidActionException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/TodoList/TodoList/target/classes/be/syntra/java/advanced/exceptions/InvalidConfirmationException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/TodoList/TodoList/target/classes/be/syntra/java/advanced/exceptions/InvalidPriorityException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/TodoList/TodoList/target/classes/be/syntra/java/advanced/model/Action.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/TodoList/TodoList/target/classes/be/syntra/java/advanced/model/Confirmation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/TodoList/TodoList/target/classes/be/syntra/java/advanced/model/Priority.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/TodoList/TodoList/target/classes/be/syntra/java/advanced/model/TodoItem.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/TodoList/TodoList/target/classes/be/syntra/java/advanced/model/TodoList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/TodoList/TodoList/target/classes/be/syntra/java/advanced/model/TodoListApp$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/TodoList/TodoList/target/classes/be/syntra/java/advanced/model/TodoListApp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/TodoList/TodoList/target/classes/be/syntra/java/advanced/view/ConsoleView.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/TodoList/TodoList/target/classes/be/syntra/java/advanced/view/View.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/TodoList/TodoList/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/TodoList/TodoList/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/TodoList/TodoList/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/TodoList/TodoList/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/TodoList/TodoList/target/surefire-reports/TEST-be.syntra.java.advanced.controller.ConsoleControllerTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/TodoList/TodoList/target/surefire-reports/TEST-be.syntra.java.advanced.model.TodoItemTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/TodoList/TodoList/target/surefire-reports/TEST-be.syntra.java.advanced.model.TodoListAppTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/TodoList/TodoList/target/surefire-reports/TEST-be.syntra.java.advanced.model.TodoListTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/TodoList/TodoList/target/surefire-reports/TEST-be.syntra.java.advanced.view.ConsoleViewTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/TodoList/TodoList/target/surefire-reports/be.syntra.java.advanced.controller.ConsoleControllerTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/TodoList/TodoList/target/surefire-reports/be.syntra.java.advanced.model.TodoItemTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/TodoList/TodoList/target/surefire-reports/be.syntra.java.advanced.model.TodoListAppTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/TodoList/TodoList/target/surefire-reports/be.syntra.java.advanced.model.TodoListTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/TodoList/TodoList/target/surefire-reports/be.syntra.java.advanced.view.ConsoleViewTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/TodoList/TodoList/target/test-classes/be/syntra/java/advanced/controller/ConsoleControllerTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/TodoList/TodoList/target/test-classes/be/syntra/java/advanced/model/TodoItemTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/TodoList/TodoList/target/test-classes/be/syntra/java/advanced/model/TodoListAppTest$ControllerStub.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/TodoList/TodoList/target/test-classes/be/syntra/java/advanced/model/TodoListAppTest$ViewMock.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/TodoList/TodoList/target/test-classes/be/syntra/java/advanced/model/TodoListAppTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/TodoList/TodoList/target/test-classes/be/syntra/java/advanced/model/TodoListTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/TodoList/TodoList/target/test-classes/be/syntra/java/advanced/view/ConsoleViewTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/TodoList/__MACOSX/TodoList/._.DS_Store" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/bowling/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/bowling/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/bowling/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/bowling/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/bowling/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/TodoList/TodoList/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/code/TodoList/TodoList/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code/bowling/bowling.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/bowling/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/bowling/src/main/java/be/lens/syntra/junit/extra/BowlingGame.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/bowling/src/test/java/be/lens/syntra/junit/extra/BowlingTest.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/code/bowling/target/classes/be/lens/syntra/junit/extra/BowlingGame.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/code/bowling/target/test-classes/be/lens/syntra/junit/extra/BowlingTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/p14ex2/CursusMaven/Hello/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/p14ex2/CursusMaven/Hello/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/p14ex2/CursusMaven/Hello/.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/p14ex2/CursusMaven/Hello/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_10_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/p14ex2/CursusMaven/Hello/.idea/libraries/Maven__org_apache_logging_log4j_log4j_core_2_10_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/p14ex2/CursusMaven/Hello/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/p14ex2/CursusMaven/Hello/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/p14ex2/CursusMaven/Hello/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/p14ex2/CursusMaven/Hello/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/p14ex2/CursusMaven/Hello/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/p14ex2/CursusMaven/Hello/Hello.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/p14ex2/CursusMaven/Hello/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/p14ex2/CursusMaven/Hello/src/main/java/eu/noelvaes/hello/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/p14ex2/CursusMaven/Hello/src/main/java/module-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/p14ex2/CursusMaven/Hello/src/main/resources/log4j2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/p14ex2/CursusMaven/Hello/src/test/java/eu/noelvaes/hello/AppTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/p14ex2/CursusMaven/Hello/target/Hello.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/p14ex2/CursusMaven/Hello/target/classes/eu/noelvaes/hello/App.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/p14ex2/CursusMaven/Hello/target/classes/log4j2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/p14ex2/CursusMaven/Hello/target/classes/module-info.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/p14ex2/CursusMaven/Hello/target/javadoc-bundle-options/element-list" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/p14ex2/CursusMaven/Hello/target/javadoc-bundle-options/javadoc-options-javadoc-resources.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/p14ex2/CursusMaven/Hello/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/p14ex2/CursusMaven/Hello/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/p14ex2/CursusMaven/Hello/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/p14ex2/CursusMaven/Hello/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/p14ex2/CursusMaven/Hello/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/p14ex2/CursusMaven/Hello/target/site/apidocs/allclasses-index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/p14ex2/CursusMaven/Hello/target/site/apidocs/allclasses.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/p14ex2/CursusMaven/Hello/target/site/apidocs/allpackages-index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/p14ex2/CursusMaven/Hello/target/site/apidocs/constant-values.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/p14ex2/CursusMaven/Hello/target/site/apidocs/deprecated-list.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/p14ex2/CursusMaven/Hello/target/site/apidocs/element-list" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/p14ex2/CursusMaven/Hello/target/site/apidocs/eu.noelvaes.hello/eu/noelvaes/hello/App.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/p14ex2/CursusMaven/Hello/target/site/apidocs/eu.noelvaes.hello/eu/noelvaes/hello/class-use/App.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/p14ex2/CursusMaven/Hello/target/site/apidocs/eu.noelvaes.hello/eu/noelvaes/hello/package-summary.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/p14ex2/CursusMaven/Hello/target/site/apidocs/eu.noelvaes.hello/eu/noelvaes/hello/package-tree.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/p14ex2/CursusMaven/Hello/target/site/apidocs/eu.noelvaes.hello/eu/noelvaes/hello/package-use.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/p14ex2/CursusMaven/Hello/target/site/apidocs/eu.noelvaes.hello/module-summary.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/p14ex2/CursusMaven/Hello/target/site/apidocs/help-doc.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/p14ex2/CursusMaven/Hello/target/site/apidocs/index-all.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/p14ex2/CursusMaven/Hello/target/site/apidocs/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/p14ex2/CursusMaven/Hello/target/site/apidocs/jquery/external/jquery/jquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/p14ex2/CursusMaven/Hello/target/site/apidocs/jquery/images/ui-bg_glass_55_fbf9ee_1x400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/p14ex2/CursusMaven/Hello/target/site/apidocs/jquery/images/ui-bg_glass_65_dadada_1x400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/p14ex2/CursusMaven/Hello/target/site/apidocs/jquery/images/ui-bg_glass_75_dadada_1x400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/p14ex2/CursusMaven/Hello/target/site/apidocs/jquery/images/ui-bg_glass_75_e6e6e6_1x400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/p14ex2/CursusMaven/Hello/target/site/apidocs/jquery/images/ui-bg_glass_95_fef1ec_1x400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/p14ex2/CursusMaven/Hello/target/site/apidocs/jquery/images/ui-bg_highlight-soft_75_cccccc_1x100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/p14ex2/CursusMaven/Hello/target/site/apidocs/jquery/images/ui-icons_222222_256x240.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/p14ex2/CursusMaven/Hello/target/site/apidocs/jquery/images/ui-icons_2e83ff_256x240.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/p14ex2/CursusMaven/Hello/target/site/apidocs/jquery/images/ui-icons_454545_256x240.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/p14ex2/CursusMaven/Hello/target/site/apidocs/jquery/images/ui-icons_888888_256x240.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/p14ex2/CursusMaven/Hello/target/site/apidocs/jquery/images/ui-icons_cd0a0a_256x240.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/p14ex2/CursusMaven/Hello/target/site/apidocs/jquery/jquery-3.3.1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/p14ex2/CursusMaven/Hello/target/site/apidocs/jquery/jquery-migrate-3.0.1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/p14ex2/CursusMaven/Hello/target/site/apidocs/jquery/jquery-ui.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/p14ex2/CursusMaven/Hello/target/site/apidocs/jquery/jquery-ui.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/p14ex2/CursusMaven/Hello/target/site/apidocs/jquery/jquery-ui.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/p14ex2/CursusMaven/Hello/target/site/apidocs/jquery/jquery-ui.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/p14ex2/CursusMaven/Hello/target/site/apidocs/jquery/jquery-ui.structure.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/p14ex2/CursusMaven/Hello/target/site/apidocs/jquery/jquery-ui.structure.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/p14ex2/CursusMaven/Hello/target/site/apidocs/jquery/jszip-utils/dist/jszip-utils-ie.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/p14ex2/CursusMaven/Hello/target/site/apidocs/jquery/jszip-utils/dist/jszip-utils-ie.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/p14ex2/CursusMaven/Hello/target/site/apidocs/jquery/jszip-utils/dist/jszip-utils.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/p14ex2/CursusMaven/Hello/target/site/apidocs/jquery/jszip-utils/dist/jszip-utils.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/p14ex2/CursusMaven/Hello/target/site/apidocs/jquery/jszip/dist/jszip.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/p14ex2/CursusMaven/Hello/target/site/apidocs/jquery/jszip/dist/jszip.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/p14ex2/CursusMaven/Hello/target/site/apidocs/member-search-index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/p14ex2/CursusMaven/Hello/target/site/apidocs/member-search-index.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/p14ex2/CursusMaven/Hello/target/site/apidocs/module-search-index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/p14ex2/CursusMaven/Hello/target/site/apidocs/module-search-index.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/p14ex2/CursusMaven/Hello/target/site/apidocs/overview-tree.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/p14ex2/CursusMaven/Hello/target/site/apidocs/package-search-index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/p14ex2/CursusMaven/Hello/target/site/apidocs/package-search-index.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/p14ex2/CursusMaven/Hello/target/site/apidocs/resources/glass.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/p14ex2/CursusMaven/Hello/target/site/apidocs/resources/x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/p14ex2/CursusMaven/Hello/target/site/apidocs/script.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/p14ex2/CursusMaven/Hello/target/site/apidocs/search.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/p14ex2/CursusMaven/Hello/target/site/apidocs/stylesheet.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/p14ex2/CursusMaven/Hello/target/site/apidocs/type-search-index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/p14ex2/CursusMaven/Hello/target/site/apidocs/type-search-index.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/p14ex2/CursusMaven/Hello/target/surefire-reports/TEST-eu.noelvaes.hello.AppTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/p14ex2/CursusMaven/Hello/target/surefire-reports/eu.noelvaes.hello.AppTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/p14ex2/CursusMaven/Hello/target/test-classes/META-INF/jpms.args" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/p14ex2/CursusMaven/Hello/target/test-classes/eu/noelvaes/hello/AppTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/p65ex2/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/p65ex2/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/p65ex2/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/p65ex2/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/p65ex2/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/p65ex2/p65ex2.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/p65ex2/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/p65ex2/src/main/java/be/lens/junit/Heating.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/p65ex2/src/main/java/be/lens/junit/InvalidTemperatureException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/p65ex2/src/main/java/be/lens/junit/Sensor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/p65ex2/src/main/java/be/lens/junit/Temperature.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/p65ex2/src/main/java/be/lens/junit/Thermostat.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/p65ex2/src/test/java/be/lens/junit/TemperatureTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/p65ex2/src/test/java/be/lens/junit/ThermostatTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/page58ex01/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/page58ex01/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/page58ex01/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/page58ex01/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/page58ex01/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/page58ex01/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/page58ex01/page58ex01.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/page58ex01/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/page58ex01/src/main/java/be/lens/junit/HelloWorld.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/page58ex01/src/test/java/be/lens/junit/HelloWorldTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/page58ex01/target/classes/be/lens/junit/HelloWorld.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/page58ex01/target/test-classes/be/lens/junit/HelloWorldTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/notes/07-10-2019" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/notes/14-10-2019" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/notes/16-10-2019" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/notes/21-10-2019" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/syntraPDFs/Cursistengids 2019-2020.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/syntraPDFs/Lens  Huygh  - Java developer - jr 2 - Inschrijvingsattest.pdf" beforeDir="false" />
     </list>
+    <ignored path="$PROJECT_DIR$/code/bowling/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/code/bowling/src/test/java/be/lens/syntra/junit/extra/BowlingTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -255,10 +44,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-125" />
-    <option name="y" value="340" />
-    <option name="width" value="1934" />
-    <option name="height" value="967" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -266,8 +55,86 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
-      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Syntra_Java_Year2_all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Syntra_Java_Year2_all" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Syntra_Java_Year2_all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Syntra_Java_Year2_all" type="462c0819:PsiDirectoryNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Syntra_Java_Year2_all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Syntra_Java_Year2_all" type="462c0819:PsiDirectoryNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="bowling" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Syntra_Java_Year2_all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Syntra_Java_Year2_all" type="462c0819:PsiDirectoryNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="bowling" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Syntra_Java_Year2_all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Syntra_Java_Year2_all" type="462c0819:PsiDirectoryNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="bowling" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Syntra_Java_Year2_all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Syntra_Java_Year2_all" type="462c0819:PsiDirectoryNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="bowling" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Syntra_Java_Year2_all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Syntra_Java_Year2_all" type="462c0819:PsiDirectoryNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="bowling" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Syntra_Java_Year2_all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Syntra_Java_Year2_all" type="462c0819:PsiDirectoryNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="bowling" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Syntra_Java_Year2_all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Syntra_Java_Year2_all" type="462c0819:PsiDirectoryNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="bowling" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="extra" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Syntra_Java_Year2_all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Syntra_Java_Year2_all" type="462c0819:PsiDirectoryNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="bowling" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
@@ -279,12 +146,14 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/code/TodoList/TodoList" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1572698793924" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/code/bowling/pom.xml" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -298,6 +167,48 @@
       </list>
     </option>
   </component>
+  <component name="RunManager" selected="JUnit.BowlingTest.canPlay5Turns">
+    <configuration name="BowlingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bowling" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="be.lens.syntra.junit.extra.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="be.lens.syntra.junit.extra" />
+      <option name="MAIN_CLASS_NAME" value="be.lens.syntra.junit.extra.BowlingTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BowlingTest.canPlay5Turns" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bowling" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="be.lens.syntra.junit.extra.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="be.lens.syntra.junit.extra" />
+      <option name="MAIN_CLASS_NAME" value="be.lens.syntra.junit.extra.BowlingTest" />
+      <option name="METHOD_NAME" value="canPlay5Turns" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.BowlingTest" />
+      <item itemvalue="JUnit.BowlingTest.canPlay5Turns" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.BowlingTest.canPlay5Turns" />
+        <item itemvalue="JUnit.BowlingTest" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="596c1c3c-92fc-48ca-b366-5342b99f977d" name="Default Changelist" comment="" />
@@ -306,44 +217,54 @@
       <option name="presentableId" value="Default" />
       <updated>1572341220370</updated>
       <workItem from="1572341222553" duration="50000" />
+      <workItem from="1572698496715" duration="321000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="BowlingTest - 2019.11.02 at 13h 46m 04s.xml">
+      <configuration name="BowlingTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BowlingTest_canPlay5Turns - 2019.11.02 at 13h 46m 36s.xml">
+      <configuration name="BowlingTest.canPlay5Turns" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50000" />
+    <option name="totallyTimeSpent" value="371000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32936078" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="SciView" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="SciView" order="7" />
+      <window_info anchor="right" id="Database" order="8" />
+      <window_info anchor="right" id="Maven Projects" order="9" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -351,5 +272,14 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/code/bowling/src/test/java/be/lens/syntra/junit/extra/BowlingTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>

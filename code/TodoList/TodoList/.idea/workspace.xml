@@ -2,9 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed62eb38-44da-4827-b676-525fa1c4d9b2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_10_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../.idea/libraries/Maven__org_apache_logging_log4j_log4j_core_2_10_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/be/syntra/java/advanced/view/ConsoleView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/syntra/java/advanced/view/ConsoleView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/be/syntra/java/advanced/view/ConsoleView.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/be/syntra/java/advanced/view/ConsoleView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bowling/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../bowling/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bowling/bowling.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bowling/src/main/java/be/lens/syntra/junit/extra/BowlingGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../bowling/src/main/java/be/lens/syntra/junit/extra/BowlingGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bowling/src/test/java/be/lens/syntra/junit/extra/BowlingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../bowling/src/test/java/be/lens/syntra/junit/extra/BowlingTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bowling/target/classes/be/lens/syntra/junit/extra/BowlingGame.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../bowling/target/classes/be/lens/syntra/junit/extra/BowlingGame.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bowling/target/test-classes/be/lens/syntra/junit/extra/BowlingTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../bowling/target/test-classes/be/lens/syntra/junit/extra/BowlingTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,28 +26,23 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/be/syntra/java/advanced/view/ConsoleViewTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/be/syntra/java/advanced/model/TodoList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="122">
-              <caret line="63" column="26" selection-start-line="63" selection-start-column="26" selection-end-line="63" selection-end-column="26" />
+            <state relative-caret-position="340">
+              <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
+              <folding>
+                <element signature="e#658#659#0" expanded="true" />
+                <element signature="e#711#712#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/be/syntra/java/advanced/model/TodoListTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/be/syntra/java/advanced/model/TodoListAppTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1377">
-              <caret line="87" selection-start-line="87" selection-end-line="87" />
+            <state relative-caret-position="270">
+              <caret line="84" selection-start-line="84" selection-end-line="84" />
               <folding>
                 <element signature="e#6169#6170#0" expanded="true" />
                 <element signature="e#6222#6223#0" expanded="true" />
@@ -50,30 +56,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/be/syntra/java/advanced/model/TodoListApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="365">
-              <caret line="58" column="8" selection-start-line="58" selection-start-column="8" selection-end-line="58" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/be/syntra/java/advanced/view/ConsoleView.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="258">
-              <caret line="28" column="35" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
-              <folding>
-                <element signature="e#1938#1939#0" expanded="true" />
-                <element signature="e#1988#1989#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/be/syntra/java/advanced/controller/ConsoleController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="799">
-              <caret line="56" column="35" selection-start-line="56" selection-start-column="35" selection-end-line="56" selection-end-column="35" />
+            <state relative-caret-position="561">
+              <caret line="41" selection-start-line="41" selection-end-line="41" />
             </state>
           </provider>
         </entry>
@@ -109,10 +93,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="-7" />
+    <option name="y" value="80" />
+    <option name="width" value="1934" />
+    <option name="height" value="967" />
   </component>
   <component name="ProjectId" id="1Sqd1MhVyDAhOmhsxUgtDIuOMta" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -121,7 +105,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -243,13 +226,14 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1572422762250" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1572424208814" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../TodoList-simplified/TodoList" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -442,14 +426,12 @@
       <workItem from="1572007864951" duration="583000" />
       <workItem from="1572250097654" duration="6557000" />
       <workItem from="1572341278966" duration="6241000" />
-      <workItem from="1572422273145" duration="371000" />
+      <workItem from="1572422273145" duration="2465000" />
+      <workItem from="1572698679107" duration="1260000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_TodoList - 2019.10.30 at 08h 59m 17s.xml">
-      <configuration name="All in TodoList" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ConsoleViewTest_testConfirmItemEdited - 2019.10.30 at 09h 00m 11s.xml">
       <configuration name="ConsoleViewTest.testConfirmItemEdited" configurationId="JUnit" />
     </history-entry>
@@ -459,15 +441,35 @@
     <history-entry file="All_in_TodoList - 2019.10.30 at 09h 03m 40s.xml">
       <configuration name="All in TodoList" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="All_in_TodoList - 2019.10.30 at 09h 04m 21s.xml">
+      <configuration name="All in TodoList" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_TodoList - 2019.10.30 at 09h 04m 48s.xml">
+      <configuration name="All in TodoList" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_TodoList - 2019.10.30 at 09h 05m 17s.xml">
+      <configuration name="All in TodoList" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_TodoList - 2019.10.30 at 09h 05m 46s.xml">
+      <configuration name="All in TodoList" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_TodoList - 2019.10.30 at 09h 06m 06s.xml">
+      <configuration name="All in TodoList" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_TodoList - 2019.10.30 at 09h 15m 07s.xml">
+      <configuration name="All in TodoList" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_TodoList - 2019.10.30 at 09h 17m 01s.xml">
+      <configuration name="All in TodoList" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15819000" />
+    <option name="totallyTimeSpent" value="19173000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2553305" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -476,8 +478,8 @@
       <window_info id="Image Layers" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32936078" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32936078" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -521,28 +523,147 @@
       </map>
     </option>
   </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/be/syntra/java/advanced/model/TodoList.java</url>
+          <line>32</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/be/syntra/java/advanced/model/TodoListApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="58" column="8" selection-start-line="58" selection-start-column="8" selection-end-line="58" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/be/syntra/java/advanced/view/ConsoleViewTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="63" column="26" selection-start-line="63" selection-start-column="26" selection-end-line="63" selection-end-column="26" />
+        <state relative-caret-position="265">
+          <caret line="159" column="27" lean-forward="true" selection-start-line="159" selection-start-column="27" selection-end-line="159" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/be/syntra/java/advanced/view/ConsoleView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="28" column="35" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
+        <state relative-caret-position="469">
+          <caret line="73" column="5" lean-forward="true" selection-start-line="73" selection-start-column="5" selection-end-line="73" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/be/syntra/java/advanced/controller/ConsoleController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="799">
+          <caret line="56" column="35" selection-start-line="56" selection-start-column="35" selection-end-line="56" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/be/syntra/java/advanced/model/TodoListTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="438">
+          <caret line="75" selection-start-line="75" selection-end-line="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-engine/5.5.2/junit-jupiter-engine-5.5.2.jar!/org/junit/jupiter/engine/execution/MethodInvocation.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-engine/5.5.2/junit-jupiter-engine-5.5.2.jar!/org/junit/jupiter/engine/extension/TimeoutExtension.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="63" selection-start-line="63" selection-end-line="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-engine/5.5.2/junit-jupiter-engine-5.5.2.jar!/org/junit/jupiter/engine/execution/InvocationInterceptorChain.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-engine/5.5.2/junit-jupiter-engine-5.5.2.jar!/org/junit/jupiter/engine/execution/ExecutableInvoker.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="74">
+          <caret line="56" selection-start-line="56" selection-end-line="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-engine/5.5.2/junit-jupiter-engine-5.5.2.jar!/org/junit/jupiter/engine/descriptor/TestMethodTestDescriptor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="108" selection-start-line="108" selection-end-line="108" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-engine/1.5.2/junit-platform-engine-1.5.2.jar!/org/junit/platform/engine/support/hierarchical/SameThreadHierarchicalTestExecutorService.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-engine/1.5.2/junit-platform-engine-1.5.2.jar!/org/junit/platform/engine/support/hierarchical/Node.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-engine/1.5.2/junit-platform-engine-1.5.2.jar!/org/junit/platform/engine/support/hierarchical/ThrowableCollector.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-engine/1.5.2/junit-platform-engine-1.5.2.jar!/org/junit/platform/engine/support/hierarchical/NodeTestTask.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="88" selection-start-line="88" selection-end-line="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-commons/1.5.2/junit-platform-commons-1.5.2.jar!/org/junit/platform/commons/util/ReflectionUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="363" selection-start-line="363" selection-end-line="363" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/be/syntra/java/advanced/model/TodoList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
           <folding>
-            <element signature="e#1938#1939#0" expanded="true" />
-            <element signature="e#1988#1989#0" expanded="true" />
+            <element signature="e#658#659#0" expanded="true" />
+            <element signature="e#711#712#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/be/syntra/java/advanced/model/TodoListApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/be/syntra/java/advanced/model/TodoListAppTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="84" selection-start-line="84" selection-end-line="84" />
+          <folding>
+            <element signature="e#6169#6170#0" expanded="true" />
+            <element signature="e#6222#6223#0" expanded="true" />
+            <element signature="e#6273#6274#0" expanded="true" />
+            <element signature="e#6335#6336#0" expanded="true" />
           </folding>
         </state>
       </provider>
