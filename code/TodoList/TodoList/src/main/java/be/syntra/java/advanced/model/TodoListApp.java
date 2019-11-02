@@ -70,9 +70,9 @@ public class TodoListApp {
 
     private void removeTodoItem(int itemIndex) {
         if (todoList.getTodoList().size() >= itemIndex) {
-            view.confirmRemoveItem(todoList.getItem(itemIndex));
+            view.confirmRemoveItem(todoList.getItem(itemIndex-1));
             if (controller.getConfirmation() == Confirmation.YES) {
-                todoList.removeItem(todoList.getItem(itemIndex));
+                todoList.removeItem(todoList.getItem(itemIndex-1));
                 view.confirmItemRemoved();
             }
         }
@@ -80,9 +80,9 @@ public class TodoListApp {
 
     private void editTodoItem(int itemIndex) {
         if (todoList.getTodoList().size() >= itemIndex) {
-            view.confirmEditItem(todoList.getItem(itemIndex));
+            view.confirmEditItem(todoList.getItem(itemIndex-1));
             if (controller.getConfirmation() == Confirmation.YES) {
-                todoList.removeItem(todoList.getItem(itemIndex));
+                todoList.removeItem(todoList.getItem(itemIndex-1));
                 todoList.addItem(createTodoItem());
                 view.confirmItemEdited();
                 view.displayList(todoList.getTodoList());

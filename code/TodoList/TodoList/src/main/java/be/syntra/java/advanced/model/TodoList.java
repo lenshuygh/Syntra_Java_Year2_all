@@ -15,10 +15,7 @@ public class TodoList {
     }
 
     List<TodoItem> getTodoList() {
-        return todoList.stream()
-                .sorted(Comparator.comparing(TodoItem::getPriority))
-                .sorted(Comparator.reverseOrder())
-                .collect(Collectors.toList());
+        return getSortedList();
     }
 
     void removeItem(TodoItem item) {
