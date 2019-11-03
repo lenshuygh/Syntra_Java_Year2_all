@@ -2,84 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3041e312-9467-4aa3-b141-563c9de8bf23" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_10_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../.idea/libraries/Maven__org_apache_logging_log4j_log4j_core_2_10_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TodoList/TodoList/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TodoList/TodoList/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bowling.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/be/lens/syntra/junit/extra/BowlingGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/lens/syntra/junit/extra/BowlingGame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/be/lens/syntra/junit/extra/BowlingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/be/lens/syntra/junit/extra/BowlingTest.java" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.43417722">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/pom.xml">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="153">
-                  <caret line="9" selection-start-line="9" selection-end-line="9" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/test/java/be/lens/syntra/junit/extra/BowlingTest.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="115">
-                  <caret line="88" column="30" selection-start-line="88" selection-start-column="30" selection-end-line="88" selection-end-column="30" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/main/java/be/lens/syntra/junit/extra/BowlingGame.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="100">
-                  <caret line="13" selection-start-line="13" selection-end-line="13" />
-                  <folding>
-                    <element signature="e#1161#1162#0" expanded="true" />
-                    <element signature="e#1197#1198#0" expanded="true" />
-                    <element signature="e#1230#1231#0" expanded="true" />
-                    <element signature="e#1259#1260#0" expanded="true" />
-                    <element signature="e#1291#1292#0" expanded="true" />
-                    <element signature="e#1319#1320#0" expanded="true" />
-                    <element signature="e#1348#1349#0" expanded="true" />
-                    <element signature="e#1376#1377#0" expanded="true" />
-                    <element signature="e#1404#1405#0" expanded="true" />
-                    <element signature="e#1431#1432#0" expanded="true" />
-                    <element signature="e#1468#1469#0" expanded="true" />
-                    <element signature="e#1500#1501#0" expanded="true" />
-                    <element signature="e#1542#1543#0" expanded="true" />
-                    <element signature="e#1580#1581#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -90,16 +21,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/test/java/be/lens/syntra/junit/extra/PlayerEntersTwoScoresInOnePlay.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/be/lens/syntra/junit/extra/BowlingGame.java" />
-        <option value="$PROJECT_DIR$/src/test/java/be/lens/syntra/junit/extra/BowlingTest.java" />
-      </list>
-    </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -114,84 +35,14 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
-    <option name="y" value="80" />
-    <option name="width" value="1934" />
-    <option name="height" value="967" />
-  </component>
+  <component name="ProjectId" id="1T4CmyPdOu71WCEOdRi3Tdfxlia" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="bowling" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bowling" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bowling" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bowling" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bowling" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bowling" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bowling" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bowling" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bowling" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bowling" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="extra" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bowling" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bowling" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bowling" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bowling" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bowling" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bowling" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="extra" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
-  </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1572701901493" />
+    <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -213,85 +64,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.BowlingTest.afterTurn10AStrikeGets2ExtraThrows">
-    <configuration name="BowlingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="bowling" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="be.lens.syntra.junit.extra.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="be.lens.syntra.junit.extra" />
-      <option name="MAIN_CLASS_NAME" value="be.lens.syntra.junit.extra.BowlingTest" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BowlingTest.ThrowDownTwoPinsIsTwoPoints" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="bowling" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="be.lens.syntra.junit.extra.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="be.lens.syntra.junit.extra" />
-      <option name="MAIN_CLASS_NAME" value="be.lens.syntra.junit.extra.BowlingTest" />
-      <option name="METHOD_NAME" value="ThrowDownTwoPinsIsTwoPoints" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BowlingTest.afterAStrikePlayerGets2ThrowsAfterStrikeWith100Points" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="bowling" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="be.lens.syntra.junit.extra.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="be.lens.syntra.junit.extra" />
-      <option name="MAIN_CLASS_NAME" value="be.lens.syntra.junit.extra.BowlingTest" />
-      <option name="METHOD_NAME" value="afterAStrikePlayerGets2ThrowsAfterStrikeWith100Points" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BowlingTest.afterTurn10ASpareGetsAnExtraTurn" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="bowling" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="be.lens.syntra.junit.extra.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="be.lens.syntra.junit.extra" />
-      <option name="MAIN_CLASS_NAME" value="be.lens.syntra.junit.extra.BowlingTest" />
-      <option name="METHOD_NAME" value="afterTurn10ASpareGetsAnExtraTurn" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BowlingTest.afterTurn10AStrikeGets2ExtraThrows" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="bowling" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="be.lens.syntra.junit.extra.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="be.lens.syntra.junit.extra" />
-      <option name="MAIN_CLASS_NAME" value="be.lens.syntra.junit.extra.BowlingTest" />
-      <option name="METHOD_NAME" value="afterTurn10AStrikeGets2ExtraThrows" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.BowlingTest2">
     <configuration default="true" type="tests" factoryName="Nosetests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -354,22 +127,104 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="BowlingTest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bowling" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="be.lens.syntra.junit.extra.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="be.lens.syntra.junit.extra" />
+      <option name="MAIN_CLASS_NAME" value="be.lens.syntra.junit.extra.BowlingTest2" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BowlingTest2.aStrikeGets2ExtraThrows" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bowling" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="be.lens.syntra.junit.extra.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="be.lens.syntra.junit.extra" />
+      <option name="MAIN_CLASS_NAME" value="be.lens.syntra.junit.extra.BowlingTest2" />
+      <option name="METHOD_NAME" value="aStrikeGets2ExtraThrows" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BowlingTest2.perfectGameIs300Points" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bowling" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="be.lens.syntra.junit.extra.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="be.lens.syntra.junit.extra" />
+      <option name="MAIN_CLASS_NAME" value="be.lens.syntra.junit.extra.BowlingTest2" />
+      <option name="METHOD_NAME" value="perfectGameIs300Points" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BowlingTest2.perfectSpareIs20Points" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bowling" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="be.lens.syntra.junit.extra.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="be.lens.syntra.junit.extra" />
+      <option name="MAIN_CLASS_NAME" value="be.lens.syntra.junit.extra.BowlingTest2" />
+      <option name="METHOD_NAME" value="perfectSpareIs20Points" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BowlingTest2.perfectStrikeIs30Points" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bowling" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="be.lens.syntra.junit.extra.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="be.lens.syntra.junit.extra" />
+      <option name="MAIN_CLASS_NAME" value="be.lens.syntra.junit.extra.BowlingTest2" />
+      <option name="METHOD_NAME" value="perfectStrikeIs30Points" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="JUnit.BowlingTest" />
-      <item itemvalue="JUnit.BowlingTest.ThrowDownTwoPinsIsTwoPoints" />
-      <item itemvalue="JUnit.BowlingTest.afterAStrikePlayerGets2ThrowsAfterStrikeWith100Points" />
-      <item itemvalue="JUnit.BowlingTest.afterTurn10ASpareGetsAnExtraTurn" />
-      <item itemvalue="JUnit.BowlingTest.afterTurn10AStrikeGets2ExtraThrows" />
+      <item itemvalue="JUnit.BowlingTest2" />
+      <item itemvalue="JUnit.BowlingTest2.aStrikeGets2ExtraThrows" />
+      <item itemvalue="JUnit.BowlingTest2.perfectSpareIs20Points" />
+      <item itemvalue="JUnit.BowlingTest2.perfectStrikeIs30Points" />
+      <item itemvalue="JUnit.BowlingTest2.perfectGameIs300Points" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.BowlingTest.afterTurn10AStrikeGets2ExtraThrows" />
-        <item itemvalue="JUnit.BowlingTest.afterTurn10ASpareGetsAnExtraTurn" />
-        <item itemvalue="JUnit.BowlingTest" />
-        <item itemvalue="JUnit.BowlingTest.afterAStrikePlayerGets2ThrowsAfterStrikeWith100Points" />
-        <item itemvalue="JUnit.BowlingTest.ThrowDownTwoPinsIsTwoPoints" />
+        <item itemvalue="JUnit.BowlingTest2" />
+        <item itemvalue="JUnit.BowlingTest2.perfectGameIs300Points" />
+        <item itemvalue="JUnit.BowlingTest2.perfectStrikeIs30Points" />
+        <item itemvalue="JUnit.BowlingTest2.perfectSpareIs20Points" />
+        <item itemvalue="JUnit.BowlingTest2.aStrikeGets2ExtraThrows" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -383,155 +238,23 @@
     </task>
     <servers />
   </component>
-  <component name="TestHistory">
-    <history-entry file="BowlingTest_afterAStrikePlayerGets2ThrowsAfterStrikeWith100Points - 2019.11.02 at 13h 55m 39s.xml">
-      <configuration name="BowlingTest.afterAStrikePlayerGets2ThrowsAfterStrikeWith100Points" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BowlingTest_afterTurn10ASpareGetsAnExtraTurn - 2019.11.02 at 14h 01m 42s.xml">
-      <configuration name="BowlingTest.afterTurn10ASpareGetsAnExtraTurn" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BowlingTest - 2019.11.02 at 14h 15m 58s.xml">
-      <configuration name="BowlingTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BowlingTest - 2019.11.02 at 14h 18m 47s.xml">
-      <configuration name="BowlingTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BowlingTest - 2019.11.02 at 14h 19m 20s.xml">
-      <configuration name="BowlingTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BowlingTest_afterAStrikePlayerGets2ThrowsAfterStrikeWith100Points - 2019.11.02 at 14h 32m 12s.xml">
-      <configuration name="BowlingTest.afterAStrikePlayerGets2ThrowsAfterStrikeWith100Points" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BowlingTest - 2019.11.02 at 14h 32m 27s.xml">
-      <configuration name="BowlingTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BowlingTest_afterTurn10AStrikeGets2ExtraThrows - 2019.11.02 at 14h 37m 18s.xml">
-      <configuration name="BowlingTest.afterTurn10AStrikeGets2ExtraThrows" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BowlingTest_afterTurn10ASpareGetsAnExtraTurn - 2019.11.02 at 14h 37m 56s.xml">
-      <configuration name="BowlingTest.afterTurn10ASpareGetsAnExtraTurn" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BowlingTest_afterTurn10AStrikeGets2ExtraThrows - 2019.11.02 at 14h 39m 18s.xml">
-      <configuration name="BowlingTest.afterTurn10AStrikeGets2ExtraThrows" configurationId="JUnit" />
-    </history-entry>
-  </component>
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="10874000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15778251" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.19501625" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3997833" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="10" />
-      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="12" show_stripe_button="false" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Maven Projects" order="5" />
-      <window_info anchor="right" id="SciView" order="6" />
-      <window_info anchor="right" id="Database" order="7" />
-      <window_info anchor="right" id="Palette&#9;" order="8" />
-      <window_info anchor="right" id="Theme Preview" order="9" />
-    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/be/lens/syntra/junit/extra/BowlingGame.java</url>
-          <line>13</line>
-          <properties />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-engine/5.2.0/junit-jupiter-engine-5.2.0.jar!/org/junit/jupiter/engine/descriptor/TestMethodTestDescriptor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="173" selection-start-line="173" selection-end-line="173" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-engine/5.2.0/junit-jupiter-engine-5.2.0.jar!/org/junit/jupiter/engine/execution/ExecutableInvoker.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="53" selection-start-line="53" selection-end-line="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-commons/1.2.0/junit-platform-commons-1.2.0.jar!/org/junit/platform/commons/util/ReflectionUtils.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="234" selection-start-line="234" selection-end-line="234" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/be/lens/syntra/junit/extra/BowlingTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="88" column="30" selection-start-line="88" selection-start-column="30" selection-end-line="88" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/be/lens/syntra/junit/extra/BowlingGame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="e#1161#1162#0" expanded="true" />
-            <element signature="e#1197#1198#0" expanded="true" />
-            <element signature="e#1230#1231#0" expanded="true" />
-            <element signature="e#1259#1260#0" expanded="true" />
-            <element signature="e#1291#1292#0" expanded="true" />
-            <element signature="e#1319#1320#0" expanded="true" />
-            <element signature="e#1348#1349#0" expanded="true" />
-            <element signature="e#1376#1377#0" expanded="true" />
-            <element signature="e#1404#1405#0" expanded="true" />
-            <element signature="e#1431#1432#0" expanded="true" />
-            <element signature="e#1468#1469#0" expanded="true" />
-            <element signature="e#1500#1501#0" expanded="true" />
-            <element signature="e#1542#1543#0" expanded="true" />
-            <element signature="e#1580#1581#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
