@@ -10,17 +10,13 @@ public class BowlingGame2 {
     private int pinsDownInFirstThrow = 0;
     private int extraThrowsEarned = 0;
 
-    public BowlingGame2() {
-    }
-
     public void addThrow(int pinsDown) {
         if (extraThrowsEarned > 0) {
-            addToScore(pinsDown);
+            addPinsDownToScore(pinsDown);
             extraThrowsEarned--;
         } else {
             if (canThrowNext) {
-                addToScore(pinsDown);
-
+                addPinsDownToScore(pinsDown);
                 if (ballNumber == 1) {
                     resetThrowNumber();
                     addFrame();
@@ -35,7 +31,7 @@ public class BowlingGame2 {
                         addExtraThrows(2);
                         resetThrowNumber();
                     }
-                    addThrow();
+                    countBallThrown();
                     pinsDownInFirstThrow = pinsDown;
                 }
             }
@@ -54,11 +50,11 @@ public class BowlingGame2 {
         spare = pinsDownInFirstThrow + pinsDown == 10;
     }
 
-    private void addToScore(int pinsDown) {
+    private void addPinsDownToScore(int pinsDown) {
         totalScore += pinsDown;
     }
 
-    private void addThrow() {
+    private void countBallThrown() {
         ballNumber++;
     }
 

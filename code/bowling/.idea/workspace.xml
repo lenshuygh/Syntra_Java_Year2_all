@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3041e312-9467-4aa3-b141-563c9de8bf23" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TodoList/TodoList/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TodoList/TodoList/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/lens/syntra/junit/extra/BowlingGame2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/lens/syntra/junit/extra/BowlingGame2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/be/lens/syntra/junit/extra/BowlingGame2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/be/lens/syntra/junit/extra/BowlingGame2.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
