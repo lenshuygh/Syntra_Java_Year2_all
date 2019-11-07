@@ -1,0 +1,17 @@
+recap Persistence/JPA
+
+start p.126 My First Entity Class
+
+p.130 exercise 1
+
+JPA Rules:
+
+  no args constructor
+
+  supply getters and setters
+
+  PK must be present
+
+  no final classes or methods
+
+  

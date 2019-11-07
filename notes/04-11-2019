@@ -1,0 +1,29 @@
+GIT
+
+  recap cfr. teacher slides
+
+intro to Lombok, AssertJ & Mockito
+
+  https://github.com/Paul-Gerarts/MockitoAndLombok
+
+JPA
+
+  p.119
+
+    JPA is the specification, the implementation is eg. Hibernate, Toplink, EclipseLink,...
+
+  p.122
+
+    maven dependencies for JPA / Hibernate
+
+  p.123
+
+    module needs to have the 'open'-keyword because JPA uses reflection to look at private POJO fields
+
+  p.123
+
+    configuration trough persistence.xml in the /META-INF folder
+
+  p.125 exercies
+
+    persistence & orm files should be in META-INF inside RESOURCES !!!
